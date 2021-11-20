@@ -18,5 +18,6 @@ module "vpc" {
     Team = "Engenharia de Confiabilidade"
     BU = "Conta Digital"
     CC = "11502"
+    Escope = "N/A"
   }
 }
