@@ -17,6 +17,6 @@ module "vpc" {
     Environment = "dev"
     Team = "Engenharia de Confiabilidade"
     BU = "Conta Digital"
-    CC = "Centro de Custo"
+    CC = "11502"
   }
 }
