@@ -11,7 +11,7 @@ agent any
       steps {
         script {
           sh 'terraform init'
-          sh 'terraform plan -out=myplan.out'
+          sh 'terraform plan -out=myplan.out -auto-approve'
         }
       }
     }
